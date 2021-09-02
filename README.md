@@ -1,2 +1,2 @@
 # smc_webdesign2
-SMC Work
+work for smc web design 2
