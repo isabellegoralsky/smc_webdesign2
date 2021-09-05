@@ -27,31 +27,49 @@ h1 h2 h3 {
 
 #im1 {
     grid-area: p1;
+    width: 200px;
+    height: 200px;
 }
 
 #im2 {
     grid-area: p2;
+    width: 200px;
+    height: 200px;
 }
 
 #im3 {
     grid-area: p3;
+    width: 200px;
+    height: 200px;
 }
 
 #im4 {
     grid-area: p4;
+    width: 200px;
+    height: 200px;
 }
 #im5 {
     grid-area: p5;
+    width: 200px;
+    height: 200px;
 }
 #im6 {
     grid-area: p6;
+    width: 200px;
+    height: 200px;
 }
 #im7 {
     grid-area: p7;
+    width: 200px;
+    height: 200px;
 }
 #im8 {
     grid-area: p8;
+    width: 200px;
+    height: 200px;
 }
 #im9 {
     grid-area: p9;
+    width: 200px;
+    height: 200px;
 }
