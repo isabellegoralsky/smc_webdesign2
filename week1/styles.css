@@ -10,9 +10,11 @@ h1 h2 h3 {
 }
 
 #grid {
-    display: flex;                       /* establish flex container */
-    flex-wrap: wrap;                     /* enable flex items to wrap */
-    justify-content: space-around;
+    display: grid;    
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 1px;   
+    margin-right: 20%;
+    margin-left:20%;    
 }
 
 #work {
