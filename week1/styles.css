@@ -10,7 +10,7 @@ h1 h2 h3 {
 }
 
 #grid {
-    display: grid;    
+    display:grid;    
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1px;   
     margin-right: 20%;
