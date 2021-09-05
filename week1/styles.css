@@ -11,13 +11,8 @@ h1 h2 h3 {
 
 #grid {
     display: grid;
-    grid-template-columns: 200px 200px 200px;
-    grid-template-rows: 200px 200px 200px;
-    grid-gap: 10px;
-    grid-template-areas: 
-    "p1 p2 p3" 
-    "p4 p5 p6" 
-    "p7 p8 p9"
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1px;
 }
 
 #work {
@@ -25,51 +20,7 @@ h1 h2 h3 {
     margin-left: 20%; 
 }
 
-#im1 {
-    grid-area: p1;
-    width: 200px;
-    height: 200px;
-}
-
-#im2 {
-    grid-area: p2;
-    width: 200px;
-    height: 200px;
-}
-
-#im3 {
-    grid-area: p3;
-    width: 200px;
-    height: 200px;
-}
-
-#im4 {
-    grid-area: p4;
-    width: 200px;
-    height: 200px;
-}
-#im5 {
-    grid-area: p5;
-    width: 200px;
-    height: 200px;
-}
-#im6 {
-    grid-area: p6;
-    width: 200px;
-    height: 200px;
-}
-#im7 {
-    grid-area: p7;
-    width: 200px;
-    height: 200px;
-}
-#im8 {
-    grid-area: p8;
-    width: 200px;
-    height: 200px;
-}
-#im9 {
-    grid-area: p9;
-    width: 200px;
-    height: 200px;
+div>img {
+    padding: 10px;
+    background-color: #ccc;
 }
