@@ -11,9 +11,13 @@ h1 h2 h3 {
 
 #grid {
     display: grid;
-    grid-template-columns: 3;
-    grid-template-rows: 3;
-    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px 200px 200px;
+    grid-gap: 10px;
+    grid-template-areas: 
+    "p1 p2 p3" 
+    "p4 p5 p6" 
+    "p7 p8 p9"
 }
 
 #work {
@@ -21,7 +25,33 @@ h1 h2 h3 {
     margin-left: 20%; 
 }
 
-.im{
-    width: 200px;
-    height: 200px;
+#im1 {
+    grid-area: p1;
+}
+
+#im2 {
+    grid-area: p2;
+}
+
+#im3 {
+    grid-area: p3;
+}
+
+#im4 {
+    grid-area: p4;
+}
+#im5 {
+    grid-area: p5;
+}
+#im6 {
+    grid-area: p6;
+}
+#im7 {
+    grid-area: p7;
+}
+#im8 {
+    grid-area: p8;
+}
+#im9 {
+    grid-area: p9;
 }
