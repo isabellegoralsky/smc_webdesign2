@@ -24,6 +24,7 @@ body {
 
 div>div {
     padding: 10px;
+    
 }
 
 #contact {
@@ -45,4 +46,19 @@ div>div {
 
 #meg{
     font-size:75px;
+}
+
+#selfie {
+    border-radius: 70%; 
+    width:350px; 
+    height:280px; 
+    padding-right:30px;
+}
+
+#bio {
+   padding:25px;
+}
+
+form {
+    display:inline-block;
 }
