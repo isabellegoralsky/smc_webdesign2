@@ -29,8 +29,8 @@ div>div {
 #contact {
     text-align: center;
     justify-items: center;
-    padding-bottom: 75px;
-    padding-top:25px;
+    padding-bottom: 90px;
+    padding-top: 75px;
 }
 
 #intro{
@@ -41,4 +41,8 @@ div>div {
     margin-right: 10%;
     margin-left:10%; 
     padding-top:45px;
+}
+
+id{
+    font-size:75px;
 }
