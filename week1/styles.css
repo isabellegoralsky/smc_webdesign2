@@ -27,6 +27,7 @@ div>div {
 }
 
 #contact {
+    text-align: center;
     justify-items: center;
     padding-bottom: 75px;
     padding-top:25px;
