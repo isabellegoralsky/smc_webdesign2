@@ -1,0 +1,11 @@
+/*all*/
+body{
+    background-color: black;
+}
+
+/*header*/
+.nav-logo, .toggle-icon {
+    width:60px;
+}
+
+/*main*/
