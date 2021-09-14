@@ -58,7 +58,14 @@ h1{
     font-family: 'Azeret Mono', monospace;
 }
 
-.body-copy{
+#big-image{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    display:block;
+}
+
+.body-copy, .body-copy2{
     padding:10px;
     color: white;
 }
@@ -92,25 +99,41 @@ footer{
 }
 
 
-/*responsive - now just >iPad and <iPad*/
+/*responsive*/
 
+/*iPad*/
 @media (min-width:768px){
     /*when your screen is at lest iPad size... apply different CSS*/
 
     /*header*/
 
+    header{
+        background-color: white;
+        margin-bottom: 55px;
+    }
+
     /*get rid of toggle icon*/
     .toggle-icon{
         display: none;
+    }
+
+    .nav-logo{
+        padding-left:20px;
     }
     
     /*line up with logo at header top*/
     nav ul.nav-links{
         float: right;
-        margin-top: 20px;
+        margin-top: 15px;
         display: block;
-        background-color: black;
-        color: white;
+        padding-right: 40px;
+        text-decoration: none;
+        color:black;
+    }
+
+    nav ul.nav-links:visited{
+        color: black;
+        text-decoration: none;
     }
 
     /*make nav bar elements next to eachother horizontally*/
@@ -123,14 +146,125 @@ footer{
 
     /*when reach iPad size we have a single column of fixed size*/
     main{
-        width: 748px;
+        width: 730px;
         margin: auto;
     }
 
-    /*break up text into 3 columns for readability!*/
+    #big-image{
+        max-width: 50%;
+        margin-right: 15px;
+    }
+
+    .homeintro{
+        display:flex;
+        margin-top: 50px;
+    }
+
+    .baby-images{
+        padding-top: 70px;
+        display:flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    
+    #bab1{
+        margin-right:45px;
+    }
+
+    #bab2{
+        margin-left:45px;
+    }
+
+    .babies{
+        width: auto;
+        max-width:30%;
+        border-radius: 50%;
+    }
+
+    .introab{
+        border-radius: 50%;
+        max-width: 70%;
+        margin-bottom: 40px;
+    }
+
+    .body-copy2{
+        max-width:  45%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+
+    }
+
+    /*footer*/
+
+    footer{
+        padding-top:20px;
+        padding-bottom: 40px;
+    }
+
+}
+
+
+/*laptop*/
+@media (min-width:1240px){
+    /*when your screen is at least laptop size... apply different CSS*/
+
+    /*header*/
+
+    header{
+        margin-bottom: 75px;
+        padding-top:15px;
+        padding-bottom:15px;
+    }
+
+    .nav-logo{
+        padding-left:40px;
+    }
+    
+    /*line up with logo at header top*/
+    nav ul.nav-links{
+        float: right;
+        margin-top: 15px;
+        display: block;
+        padding-right: 100px;
+        color:black;
+    }
+
+    nav ul.nav-links:visited{
+        color: black;
+    }
+
+
+    /*main*/
+
+    /*when reach iPad size we have a single column of fixed size*/
+    main{
+        width: 980px;
+        margin: auto;
+    }
+
+    #big-image{
+        max-width: 50%;
+        margin-right: 25px;
+    }
+
     .body-copy{
-        padding: 10px 0px;
-        columns: 3;
+        max-width:25%;
+        margin:auto;
+    }
+
+    .homeintro{
+        margin-top: 80px;
+    }
+
+    .baby-images{
+        padding-top: 95px;
+        margin-bottom: 60px;
+    }
+
+    .introab{
+        max-width: 60%;
+        margin-bottom: 60px;
     }
 
 }
