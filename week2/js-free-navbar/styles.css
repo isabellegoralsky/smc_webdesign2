@@ -2,6 +2,7 @@
 body{
     background-color: black;
     margin:0px;
+    font-family: 'Abel', sans-serif;
 }
 
 img{
@@ -11,17 +12,19 @@ img{
 /*header*/
 
 header{
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .nav-logo{
-    width: 80px;
+    width: 60px;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 
 .toggle-icon {
     width: 40px;
     float:right;
-    padding-top: 5px;
+    padding-top: 25px;
     padding-right:20px;
 }
 
@@ -32,6 +35,10 @@ nav ul.nav-links{
     list-style: none;
     margin:0px;
     display:none;
+}
+
+nav ul.nav-links:hover{
+    color: grey;
 }
 
 #toggleCheck:checked + .nav-links{
@@ -45,9 +52,43 @@ nav ul.nav-links{
 
 /*main*/
 
+h1{
+    color:white;
+    text-align: center;
+    font-family: 'Azeret Mono', monospace;
+}
+
 .body-copy{
     padding:10px;
     color: white;
+}
+
+.baby-images{
+    padding-top: 20px;
+    display:flex;
+    justify-content: space-around;
+}
+
+.babies{
+    width:100px;
+    border-radius: 50px;
+}
+
+.introab{
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+/*footer*/
+
+footer{
+    padding-top: 25px;
+    color:lightgrey;
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 
